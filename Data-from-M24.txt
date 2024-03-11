@@ -30,6 +30,9 @@ The column name description is given below:
     "Glat": Galactic latitude (units: degrees)
     "CXO_XMM_telescope": Telescope used for measuring T_CXO_XMM values
 
+
+#Note: Some cluster regions appear twice, due to the temperature having been measured with both Chandra and XMM-Newton. In such cases, the eROSITA temperature might differ for the same cluster region, since different masks were used and different fraction of the region is covered by Chandra and XMM-Newton, with the former sometimes not covering the full 0.2-0.5 R500 annulus.   
+
 #Cluster	Region	T_eRO_full	T_eRO_full_low	T_eRO_full_high	T_CXO_XMM_full	T_CXO_XMM_full_low	T_CXO_XMM_full_high	T_eRO_soft	T_eRO_soft_low	T_eRO_soft_high	T_CXO_XMM_soft	T_CXO_XMM_soft_low	T_CXO_XMM_soft_high	T_eRO_hard	T_eRO_hard_low	T_eRO_hard_high	T_CXO_XMM_hard	T_CXO_XMM_hard_low	T_CXO_XMM_hard_high	Z_full	Z_soft	Z_hard	z	R500	Nhtot	Glon	Glat	CXO_XMM_telescope
 1ES0657	Annulus	7.251	1.251	2.177	15.771	0.398	0.326	11.184	3.366	8.301	15.529	0.690	0.775	4.094	0.979	1.529	14.059	0.456	0.466	0.378	2.369	0.382	0.296	5.244	6.440	266.025	-21.248	Chandra
 A0458	Annulus	3.564	0.983	1.288	3.653	0.304	0.288	2.768	0.581	1.092	3.321	0.118	0.122	-	-	-	4.059	0.227	0.250	0.359	0.277	0.495	0.106	7.857	1.280	218.840	-50.784	XMM-Newton
