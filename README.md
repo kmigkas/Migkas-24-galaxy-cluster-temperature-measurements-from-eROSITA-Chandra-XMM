@@ -32,3 +32,5 @@ The column name description is given below:
 27) "Glon": Galactic longitude (units: degrees)
 28) "Glat": Galactic latitude (units: degrees)
 29) "CXO_XMM_telescope": Telescope used for measuring T_CXO_XMM values
+
+#Note: Some cluster regions appear twice, due to the temperature having been measured with both Chandra and XMM-Newton. In such cases, the eROSITA temperature might differ for the same cluster region, since different masks were used and different fraction of the region is covered by Chandra and XMM-Newton, with the former sometimes not covering the full 0.2-0.5 R500 annulus.    
